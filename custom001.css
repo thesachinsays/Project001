@@ -1,0 +1,102 @@
+body
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-display: auto;
+    color: white;
+}
+
+.img-responsive
+{
+    max-height: 100%;
+}
+
+.hero_image
+{
+    background: url(diner-dining-dinner-761854.jpg)no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    position: relative;
+}
+
+.hero_wrapper
+{
+ color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.hero_wrapper h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+.hero_wrapper p
+{
+    font-size: 18px;
+}
+
+.form_code
+{
+    text-align: center;
+}
+.form_code .post_code
+{
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .3rem;
+    border: none;
+    outline: none;
+    
+}
+.from_code button
+{
+    width: 40%;
+    display: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #00bab1;
+    color: white;
+    padding: .5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .3rem;
+    
+    
+}
+
+.product
+{
+    width: 90%;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.product_list_item
+{
+    float: left;
+    width: 30%;
+    margin-left: 2rem;
+    
+}
+
+.product_list_item:first-of-type
+{
+    margin-left: 0;
+}
+
+
+
+
+
+/*Designed By SACHIN RASTOGI*/
